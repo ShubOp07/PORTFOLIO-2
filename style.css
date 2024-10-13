@@ -1,0 +1,91 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color: #002244;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.hero {
+    height: 100vh;
+    background: url('images/space-background.jpg') no-repeat center center/cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content h2 {
+    font-size: 2.5rem;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 50px;
+    color: white;
+}
+
+.about-section {
+    background: url('images/earth-background.jpg') no-repeat center center/cover;
+}
+
+.projects {
+    padding: 50px;
+    background-color: #fff;
+}
+
+.project-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #e6e6e6;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.contact-section {
+    background-color: #002244;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+footer {
+    background-color: #001122;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

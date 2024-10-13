@@ -1,0 +1,6 @@
+/portfolio
+|-- index.html
+|-- styles.css
+|-- script.js
+|-- images/   (Add your graphics here)
+|-- icons/    (For social icons)
